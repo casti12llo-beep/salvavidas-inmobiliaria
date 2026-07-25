@@ -89,3 +89,12 @@ header p {
     color: #0b1f33;
     margin-bottom: 10px;
 }
+
+
+/* Logo */
+
+.logo {
+    width: 180px;
+    height: auto;
+    margin-bottom: 15px;
+}
