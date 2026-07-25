@@ -17,8 +17,10 @@ body {
 header {
     background-color: #0b1f33;
     color: white;
-    padding: 20px;
-    text-align: center;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 header h1 {
@@ -94,7 +96,10 @@ header p {
 /* Logo */
 
 .logo {
-    width: 220px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    width: 260px;
+    height: auto;
+}
+
+header div {
+    text-align: left;
 }
