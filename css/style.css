@@ -207,3 +207,102 @@ header div {
     background-color: white;
     color: #0b1f33;
 }
+
+/* ============================= */
+/* MENÚ PRINCIPAL */
+/* ============================= */
+
+.menu {
+    width: 100%;
+    background-color: #0b1f33;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+}
+
+/* Opciones principales */
+
+.menu > a,
+.menu-desplegable > a {
+    display: block;
+
+    padding: 18px 25px;
+
+    color: white;
+    text-decoration: none;
+
+    font-weight: bold;
+    font-size: 16px;
+
+    transition: 0.3s;
+}
+
+/* Efecto al pasar el mouse */
+
+.menu > a:hover,
+.menu-desplegable > a:hover {
+    background-color: #d4af37;
+    color: #0b1f33;
+}
+
+
+/* ============================= */
+/* SUBMENÚ */
+/* ============================= */
+
+.menu-desplegable {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+
+    min-width: 250px;
+
+    background-color: white;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+
+    z-index: 1000;
+}
+
+
+/* Opciones del submenú */
+
+.submenu a {
+    display: block;
+
+    padding: 14px 18px;
+
+    color: #0b1f33;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    border-bottom: 1px solid #eee;
+}
+
+
+/* Hover submenú */
+
+.submenu a:hover {
+    background-color: #d4af37;
+
+    color: #0b1f33;
+}
+
+
+/* Mostrar submenú */
+
+.menu-desplegable:hover .submenu {
+    display: block;
+}
