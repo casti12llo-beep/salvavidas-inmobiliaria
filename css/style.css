@@ -350,3 +350,42 @@ header div {
     line-height: 1.5;
 }
 
+/* ========================= */
+/* WHATSAPP FLOTANTE */
+/* ========================= */
+
+.whatsapp-float {
+    position: fixed;
+
+    width: 60px;
+    height: 60px;
+
+    right: 25px;
+    bottom: 25px;
+
+    background-color: #25D366;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+    z-index: 9999;
+
+    transition: 0.3s;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+
