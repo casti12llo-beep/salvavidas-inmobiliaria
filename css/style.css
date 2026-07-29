@@ -306,3 +306,47 @@ header div {
 .menu-desplegable:hover .submenu {
     display: block;
 }
+
+
+.bienvenida {
+    padding: 60px 30px;
+    text-align: center;
+    background-color: white;
+}
+
+.bienvenida h2 {
+    color: #0b1f33;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.bienvenida > p {
+    font-size: 18px;
+    max-width: 750px;
+    margin: 0 auto 40px;
+}
+
+.beneficios {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.beneficio {
+    width: 280px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0 5px 15px #ddd;
+}
+
+.beneficio h3 {
+    color: #0b1f33;
+    margin-bottom: 12px;
+}
+
+.beneficio p {
+    line-height: 1.5;
+}
+
